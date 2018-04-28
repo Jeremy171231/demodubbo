@@ -13,7 +13,7 @@ public class ConsumerServiceTest {
         context.start();
         TestService testService = (TestService) context.getBean("testService");
         System.out.println(testService.getTest());
-        System.out.println("test dubbo");
+        System.out.println("test dubbo one");
         try {
             System.in.read();
         } catch (IOException e) {
